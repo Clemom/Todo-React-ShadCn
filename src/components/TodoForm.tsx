@@ -32,7 +32,7 @@ const TodoForm = ({ input, priority, onInputChange, onPriorityChange, onAdd }: P
         placeholder="Add tasks..."
         value={input}
         onChange={(e) => onInputChange(e.target.value)}
-        onKeyPress={handleKeyPress}
+        onKeyDown={handleKeyPress}
       />
 
       <Select
