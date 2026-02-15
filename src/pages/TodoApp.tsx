@@ -42,7 +42,7 @@ const TodoApp = () => {
       <div className="max-w-2xl mx-auto space-y-6">
         <div className="flex gap-3 justify-between items-center">
           <Button variant="outline" onClick={() => navigate("/")}>
-            ← Retour
+            Back
           </Button>
 
           <div className="flex gap-3">
